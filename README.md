@@ -1,8 +1,22 @@
-# Mathias’s dotfiles
+# Aaron’s dotfiles
 
 ![Screenshot of my shell prompt](http://i.imgur.com/EkEtphC.png)
 
 ## Installation
+
+## Step 1: prepare Mac OS X
+
+1. Install Xcode from the App Store
+2. Open Xcode's preferences and install the command line tools package (this will also install Git) (on OS X Mavericks you need to run `xcode-select --install` instead)
+3. Install http://coderwall.com/p/dlithw *(optional)*
+
+## Step 2: install Homebrew
+
+    $ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+
+To update Homebrew itself:
+
+    $ brew update
 
 ### Using Git and the bootstrap script
 
